@@ -1,0 +1,209 @@
+/*-----
+.transform:translate(), rotate(),
+scale(), skew()---
+
+transition: (change over time )
+transition -property
+transition-duration
+animation:(change over time with points)
+----*/
+
+h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(56, 146, 153, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    padding: 10px;
+    margin-left: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+/*
+div{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+div:hover{
+    background: chocolate;
+}
+.one{
+    background: black;
+    
+}
+.two{
+    background: green;
+  
+}
+.three{
+    background: cadetblue;
+   transition-property: background, border-radius;
+   transition-duration: 3s;
+   transition-delay: 1s;
+}
+.three:hover{
+    border-radius: 50px;
+    background: coral;
+}
+*/
+/*
+div{
+    width: 100px;
+    height: 100px;
+    background: crimson;
+    color: cyan;
+    margin: 50px;
+    transition: all 1s;
+}
+div:hover{
+    transform: translate(100px);
+}
+.ease{
+    transition-timing-function: ease;
+}
+.linear{
+    transition-timing-function: linear;
+}
+.ease-in{
+    transition-timing-function: ease-in;
+}
+.ease-out{
+    transition-timing-function: ease-out;
+}
+.ease-in-out{
+    transition-timing-function: ease-in-out;
+}.....
+
+transition 0=100
+animation 0 1% 2%...100%
+*/
+/*-----
+div{
+    width: 200px;
+    height: 100px;
+    color: cyan;
+    margin: 20px;
+}
+.transition{
+    background: red;
+    transition: all 2s linear;
+}
+.transition:hover{
+    background: rgba(2, 0, 36, 1);
+    transform: translateX(100px);
+}
+.animation{
+    background: rgba(56, 146, 153, 1);
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+@keyframes move {
+    0% {
+        transform: translateX(20px);
+    }
+    50% {
+        transform: translateX(100px);
+        background: royalblue;
+    }
+    75% {
+        transform: translateX(-100px);
+        background: yellow;
+    }
+    100% {
+        transform:translateX(20px);
+        background: tomato;
+    }
+    0%{
+        transform: translateX(20px);
+    }
+}
+*/
+/*---animation fill mode---
+div {
+    width: 200px;
+    height: 100px;
+    color: cyan;
+    margin: 20px;
+}
+.animation{
+    background: violet;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+}
+@keyframes move {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        transform: translateX(200px);
+        opacity: 0.25;
+    }
+    50% {
+        transform: translateX(-100px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 0.5;
+    }
+}
+
+*/
+
+/*------
+1.css variables
+custom properties hold a value and reuse it ...
+--varname:value      property:var(--varname)
+scop   **:root{} ==global  **element==local **any property
+/*
+.heading{
+    color: tomato;
+}
+.text{
+    color: teal;
+}
+.main-text{
+    color: rgba(0, 17, 255, 0.568);
+}
+.second-heading{
+    color: tomato;
+}*/
+/*
+:root{
+    --primaryColor:rgba(157, 104, 241, 0.774);
+    --mainTransition:all 0.9s linear;
+    --seconeColor:rgb(218, 19, 158);
+}
+.heading{
+    color:var(--primaryColor);
+}
+.second-heading{
+    color: var(--primaryColor);
+}
+.second-heading:hover{
+    color: var(--seconeColor);
+    transition: var(--mainTransition);
+}
+div{
+    --primarRed:red;
+}
+.main-text{
+    color: var(--primarRed);
+}
+*/
+/*
+2.Font awesome icons
+icons
+*/
+
+/*
+3.text-shadows
+4.browser prefix
+5.semantic  HTML
+6^emmet snippets
+*/
+

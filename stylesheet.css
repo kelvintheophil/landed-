@@ -1,0 +1,124 @@
+*{
+  margin:0;
+  padding:0;
+}
+/*---color properties and color-background----*/
+
+/*-------font-size--height ===width==pixels 
+percent are relative depend on parent*/
+
+
+/*em ---relative depend on parent--
+1em=16px default web */
+
+/*------pixels are absolute value does not depend on parent element ------*/
+
+/*rem= relative depends on root(html)
+1rem =16px ------*/
+
+/*----vh iheight percent of the screen
+-------vw width percent of the screeen=---*/
+/*=====calc() fuction-----*/
+
+/*---------typography-------
+----font-wight -----font-style
+----text-align---- texr-indent----
+line-height--- letter-spacing---word spacing-
+--text-transform----text-decoration*/
+
+/*--------------box models-------*/
+/*----padding---margin---border---content---
+---negative margin  ---outline offset*/
+
+
+/*----------css display ---------*/
+/*--block element always start a new line and take full width
+inline deos not start new line and only take up as much as content space-
+inline-block*/
+/*---horizontal centering----*/
+
+/*---
+block....Top bottom margin respected buh inline...top bottom margin not respected 
+
+list-style-property=none
+descendant selectors
+---*/
+
+/*--border sizing -border box
+display none
+visibility none--*/
+
+/*-background url(img  )
+background repeat...background-size......backgroud-position.....background-attachment..
+
+-------background overlay----
+. div {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(172, 59, 19);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.one {
+  background: url(projects/photos/flowers.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+shorthand=====center/cover fixed no-repeat
+.two {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url('projects/photos/flowers.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+-*/
+
+/*---
+1.float,clear....position(static,relative,absoule,fixed)......media quaries....z-index......
+::before ::after pseudo elements
+--*/
+
+/*---media queries---
+Responsive design
+style elements on different screen size
+min-width ---starting from
+max- width---up to 
+*/
+
+/*---CSS selectors------
+descendant and child combinators 
+
+    descentant  div h1
+    children  div > h1
+
+    ::first-line 
+    ::first-line
+    :hover
+    :link, :visited, :active :hover
+--*/
+
+
+body{
+  text-align: center;
+}
+
+.block{
+  background: blue;
+  color: white;
+  width: 90px;
+  margin: 10px auto;
+}
+
+.inline{
+  background: red;
+  color: white;
+}
+

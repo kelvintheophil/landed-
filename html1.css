@@ -1,0 +1,91 @@
+*{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: teal;
+}
+sup, sub{
+    color: rgba(10, 36, 66, 0.568);
+}
+.first-para{
+    width: 50%;
+    height: 20%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid teal;
+    border-radius: 8px;
+    color: turquoise;
+    
+}
+em, strong{
+    color: rgb(30, 7, 133);
+    font-family: monospace;
+}
+ul{
+    margin: 20px;
+    padding: 20px;
+}
+li{
+    list-style-type: none;
+    width: 50vw;
+    color: turquoise;
+    margin: auto auto;
+    border-bottom:dashed;
+    padding: 10px;
+    left: 25%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(174, 248, 255);
+    padding: 10px;
+    background: teal;
+    transition: all 1s linear;
+}
+
+a:hover{
+    border-radius: 3px;
+    background: turquoise;
+    border: none;
+    color: slateblue;
+    transform: translate(-5px);
+}
+
+table{
+    tab-size: 20px;
+    width: 50vw;
+    margin: 10px auto;
+    border: 2px solid teal ;
+    border-radius: 5px;
+    padding: 20px;
+}
+th{
+    color: teal;
+    border-bottom: 2px solid turquoise;
+}
+td{
+    color: turquoise;
+    text-align: center;
+    border-bottom: double;
+}
+.login-info{
+    width: 50%;
+    height: 10vh;
+    display: block;
+    padding: 10px;
+}

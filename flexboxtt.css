@@ -1,8 +1,11 @@
+/*-------flex tutorial css------
 .flex-container{
     display: flex;
     background-color: teal;
-    align-items: stretch;
+    align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 .flex-container > div{
@@ -13,3 +16,38 @@
     background-color: antiquewhite;
     text-align: center;
 }
+------*/
+
+/*-----------CSS SELECTORS----
+simple selectors select elements based on a specific name , id , class(Id, class element.class *-->>universal  element,element)
+
+2.combinator selectors select elemetns based on a specific relationship between them
+there are four  combinators  
+i) descendant combinator(space)--matches all elements that are descendant of a specified element 
+ii) child selector (>)--
+iii) adjacent sibling selector(+)
+iv)general sibling selector(~)
+
+3. pseudo-class selectors select elements based on a certain state
+Note: a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective. 
+Note: a:active MUST come after a:hover in the CSS definition in order to be effective.
+
+simple tooltip {hover over me to show element}
+p {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+div:hover p {
+    display: block;
+}
+
+:first-child--matches a specified element that is the first child of another element.
+all css pseudo elements ::
+
+4. pseudo element selectors select and style the part of an element 
+5. attribute selectors select elements based on an attribute or attribute value
+----*/
+
+
+

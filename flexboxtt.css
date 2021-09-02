@@ -49,5 +49,65 @@ all css pseudo elements ::
 5. attribute selectors select elements based on an attribute or attribute value
 ----*/
 
+/*----------------------CSS GRID TUTORIAL------------*/
+
+.grid-container{
+
+    border-radius: 10px;
+    display: grid;
+    margin-left: 50px;
+    width: 90vw;
+    height: 95vh;
+    grid-template-columns: auto auto auto auto ;
+    grid-gap: 10px;
+    grid-template-rows: 10% 30% 10% 20% 15% 15% ;
+}
+.grid-container > div{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.one{
+    background-color: rgb(224, 173, 64);
+    grid-column: 1/5;
+}
+.two{
+    background: tomato;
+}
+.four{
+    background: tomato;
+    grid-column: 4/5;
+    grid-row: 2/4;
+}
+.three{
+    background: rgb(233, 164, 85);
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+.five{
+    background: brown;
+    grid-row: 3/5;
+}
+.six{
+    background: coral;
+    grid-column: 2/5;
+}
+.seven{
+    background: crimson;
+    grid-column: 1/3;
+}
+.eight{
+    background: darkmagenta;
+    grid-column: 1/3;
+}
+.nine{
+    background: darkorchid;
+    grid-column: 3/5;
+    grid-row: 5/7;
+}
+
+
 
 
